@@ -1,0 +1,102 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:32a82174-2d6f-5f47-b0be-547b4092f6be",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T17:50:57Z",
+    "component": {
+      "type": "application",
+      "name": "SPACEPY",
+      "version": "cb983af96e06",
+      "bom-ref": "pkg:generic/anticloud/SPACEPY@cb983af96e06",
+      "purl": "pkg:generic/anticloud/SPACEPY@cb983af96e06",
+      "licenses": [
+        {
+          "license": {
+            "id": "UNKNOWN"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "cb983af96e06265dc35463e0d725a11eaf0682a6"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/spacepy/spacepy"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": ">=1.15.1",
+      "purl": "pkg:pypi/numpy@1.15.1",
+      "bom-ref": "pypi/numpy@>=1.15.1"
+    },
+    {
+      "type": "library",
+      "name": "scipy",
+      "version": ">=1.0",
+      "purl": "pkg:pypi/scipy@1.0",
+      "bom-ref": "pypi/scipy@>=1.0"
+    },
+    {
+      "type": "library",
+      "name": "matplotlib",
+      "version": ">=3.1",
+      "purl": "pkg:pypi/matplotlib@3.1",
+      "bom-ref": "pypi/matplotlib@>=3.1"
+    },
+    {
+      "type": "library",
+      "name": "h5py",
+      "version": ">=2.10",
+      "purl": "pkg:pypi/h5py@2.10",
+      "bom-ref": "pypi/h5py@>=2.10"
+    },
+    {
+      "type": "library",
+      "name": "python_dateutil",
+      "version": ">=2.5",
+      "purl": "pkg:pypi/python-dateutil@2.5",
+      "bom-ref": "pypi/python_dateutil@>=2.5"
+    },
+    {
+      "type": "library",
+      "name": "-std",
+      "version": "=legacy",
+      "purl": "pkg:pypi/-std@legacy",
+      "bom-ref": "pypi/-std@=legacy"
+    },
+    {
+      "type": "library",
+      "name": "-mmacosx-version-min",
+      "version": "={min_os_ver}",
+      "purl": "pkg:pypi/-mmacosx-version-min@{min_os_ver}",
+      "bom-ref": "pypi/-mmacosx-version-min@={min_os_ver}"
+    },
+    {
+      "type": "library",
+      "name": "--print-file-name",
+      "version": "={f}.dylib",
+      "purl": "pkg:pypi/--print-file-name@{f}.dylib",
+      "bom-ref": "pypi/--print-file-name@={f}.dylib"
+    },
+    {
+      "type": "library",
+      "name": "pandas",
+      "version": ">=0.18",
+      "purl": "pkg:pypi/pandas@0.18",
+      "bom-ref": "pypi/pandas@>=0.18"
+    }
+  ]
+}
