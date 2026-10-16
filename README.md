@@ -2,9 +2,7 @@
 
 > SpacePy is a package for Python, targeted at the space sciences, that aims to make basic data analysis, modeling and visualization easier. It builds on the capabilities of the well-known NumPy and MatPlotLib packages. Publication quality output direct from analyses is emphasized among other goals:
 
-**Category:** SPACE_AEROTECH · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/Stefan-Korner/SpacePyLibrary · **Pinned commit:** `6a9f0827005c03cbc59557def78bbc035a97bbea` · **Vendor:** Anticloud FZ LLE
-
-> **Note:** this package vendors `https://github.com/Stefan-Korner/SpacePyLibrary` as the implementation for the `SPACEPY` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
+**Category:** SPACE_AEROTECH · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/spacepy/spacepy · **Pinned commit:** `cb983af96e06265dc35463e0d725a11eaf0682a6` · **Vendor:** Anticloud FZ LLE
 
 ## What This Project Is
 
@@ -62,7 +60,7 @@ The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The 
 SHA3-256 of `BENCH.json`:
 
 ```
-8887ece2860fafacb387a70227a217795918209262d181d2641c9d61e37b31a1
+87d6b1f1524b5148c17614410f677480f6f4f29737e3364472569e6de863b052
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.

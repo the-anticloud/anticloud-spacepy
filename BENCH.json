@@ -540,10 +540,10 @@
  "version": "1.0.0",
  "source": {
   "git": {
-   "head": "6a9f0827005c03cbc59557def78bbc035a97bbea",
-   "url": "https://github.com/Stefan-Korner/SpacePyLibrary",
-   "branch": "master",
-   "sha_verified_from": "GitHub API commits/master | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/spacepy/spacepy",
+   "head": "cb983af96e06265dc35463e0d725a11eaf0682a6",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/Stefan-Korner/SpacePyLibrary"
   }
  }
 }
