@@ -543,7 +543,7 @@
    "url": "https://github.com/spacepy/spacepy",
    "head": "cb983af96e06265dc35463e0d725a11eaf0682a6",
    "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
-   "previous_substitute": "https://github.com/Stefan-Korner/SpacePyLibrary"
+   "previous_substitute": "https://github.com/spacepy/spacepy"
   }
  }
 }
